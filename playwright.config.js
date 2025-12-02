@@ -21,7 +21,13 @@ const config = ({
   reporter : 'html',
 
   use : {
-    browserName : 'chromium'
+    //browserName : 'chromium',
+    //browserName : 'firefox',
+
+    // For Safari browser. Webkit is playwright specific engine derived from the safari
+    browserName : 'webkit',
+
+    headless : false
   }
 
 });
